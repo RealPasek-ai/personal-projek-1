@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nyoman Pasek Maharta</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=VT323&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">UI/UX_COMMANDER</div>
+    <ul class="nav-links">
+      <li><a href="#" class="active">HOME</a></li>
+      <li><a href="#arsenal">TOOLS</a></li>
+      <li><a href="#mission-log">ACADEMY</a></li>
+      <li><a href="#contact">COMMS</a></li>
+    </ul>
+    <div class="nav-icon">&#9673;&#9673;&#9673;</div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="game-screen">
+      <div class="game-header">
+        <span>LIVES: II</span>
+      </div>
+      <div class="game-canvas">
+        <canvas id="spaceCanvas"></canvas>
+      </div>
+      <div class="game-footer">
+        <span>SCORE: <span id="score">009870</span></span>
+        <span>HI-SCORE: <span>012340</span></span>
+      </div>
+    </div>
+    <div class="rank-badge">RANK: ELITE ENGINEER</div>
+
+    <h1 class="hero-title glitch" data-text="UI/UX COMMANDER">UI/UX COMMANDER</h1>
+    <p class="hero-desc">
+      DEPLOYING PIXEL-PERFECT INTERFACES ACROSS THE DIGITAL GALAXY.<br />
+      SPECIALIZING IN RETRO-FUTURISTIC SYSTEMS AND HIGH-FIDELITY<br />
+      USER EXPERIENCES.
+    </p>
+    <a href="#arsenal" class="btn-primary">MISSION START &#9654;</a>
+
+    <div class="status-bar">
+      LIVES: II &nbsp;&nbsp; SCORE: <span class="blink">&#9632;&#9632;&#9632;&#9632;&#9632;&#9632;</span> ...
+    </div>
+  </section>
+
+  <!-- COMMAND ARSENAL -->
+  <section class="arsenal" id="arsenal">
+    <h2 class="section-title"><span class="icon">&#9776;</span> COMMAND_ARSENAL</h2>
+    <div class="cards-grid">
+      <div class="skill-card">
+        <div class="card-dots">&#183;&#183;</div>
+        <div class="card-icon">&lt; &gt;</div>
+        <div class="card-name">REACT.JS</div>
+        <div class="card-bar"><div class="bar-fill green" style="width:90%"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="card-dots">&#183;&#183;</div>
+        <div class="card-icon">&#9652;</div>
+        <div class="card-name">FIGMA</div>
+        <div class="card-bar"><div class="bar-fill purple" style="width:75%"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="card-dots">&#183;&#183;</div>
+        <div class="card-icon">&#9654;</div>
+        <div class="card-name">JAVASCRIPT</div>
+        <div class="card-bar"><div class="bar-fill green" style="width:85%"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="card-dots">&#183;&#183;</div>
+        <div class="card-icon">CSS</div>
+        <div class="card-name">TAILWIND</div>
+        <div class="card-bar"><div class="bar-fill orange" style="width:80%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION LOG -->
+  <section class="mission-log" id="mission-log">
+    <h2 class="section-title"><span class="icon">&#9650;</span> MISSION_LOG</h2>
+    <div class="timeline">
+
+      <div class="timeline-item active">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content green-border">
+          <div class="stardate green">STARDATE: 2021-PRESENT</div>
+          <h3>ADVANCED COMMAND TRAINING</h3>
+          <p>Specialized Master's Program in Human-Computer Interaction. Advanced modules in cognitive load optimization and neural interface design.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content purple-border">
+          <div class="stardate purple">STARDATE: 2017-2021</div>
+          <h3>SYSTEMS ENGINEERING DEGREE</h3>
+          <p>Core training in data architecture, algorithmic efficiency, and front-end infrastructure development.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content orange-border">
+          <div class="stardate orange">STARDATE: 2015-2017</div>
+          <h3>BASE TRAINING</h3>
+          <p>Initial deployment into web fundamentals. HTML/CSS structural integrity and early UI experimentation.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EMERGENCY TRANSMISSION / CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-box">
+      <h2 class="contact-title">EMERGENCY TRANSMISSION</h2>
+      <p class="contact-desc">
+        SQUAD READY FOR DEPLOYMENT. SEND SIGNAL VIA ONE OF<br />
+        THE FOLLOWING FREQUENCIES TO INITIATE COOPERATION.
+      </p>
+      <div class="contact-btns">
+        <a href="#" class="btn-contact green">&#9673; GITHUB_REPO</a>
+        <a href="#" class="btn-contact purple">&#9654; LINKEDIN_SIGNAL</a>
+        <a href="#" class="btn-contact orange">&#9658; TWITTER_ARRAY</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">SYSTEM_OVERRIDE &copy; 1994-2024</div>
+    <div class="footer-right">
+      <span class="scanlines">&#9632; SCANLINES_ON</span>
+      <a href="#">LOG_OUT</a>
+      <a href="#">SOURCE_CODE</a>
+    </div>
+  </footer>
+
+  <script src="../javascript/space.js"></script>
+  <script src="../javascript/main.js"></script>
+</body>
+</html>
